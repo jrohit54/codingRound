@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ClearTripTest">
+
+	<test name="RegSet1">
+		<classes>
+
+			<class name="Scenerio_Component.FlightBookingTest" />
+			<class name="Scenerio_Component.HotelBookingTest" />
+		 	<class name="Scenerio_Component.SignInScenerioTest" /> 
+		
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

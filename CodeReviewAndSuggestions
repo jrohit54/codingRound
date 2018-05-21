@@ -1,0 +1,27 @@
+Code Review Comments and Framework Suggestions:
+
+Flight Booking Test:
+1.PageObjects Design pattern can be followed for this test.
+2.Locator for 'ToTag' is incorrect.Have corrected it.
+3.Base class added to maintain the reusable methods.
+4.Created the class HomePage to maintain element and functional methods.
+5.Explicit wait should be used instead of thread.sleep to wait for element to be displayed.
+
+
+Hotel Booking Test:
+1.Updated the Test with PageFactory Pattern.
+2.Created the constructor to pass the drive and initialize the elements.
+3.Created the class HotelBookingPage to maintain element and functional methods.
+
+
+SignInTest:
+1.PageFacttory design pattern can be used
+2.Need to switch to frame to enter the sign in credentials.
+3.Added the switch to functionality the Base class present in the generic package.
+4.All wait method are moved in Base class to make them reusable.
+
+
+Framework:
+-An page object model can be used to maintain both page objects and scenarios.
+-The reporting can be improved by using external libraries like extent reports.
+-An screen shot capture can implemented for the failed cases.
